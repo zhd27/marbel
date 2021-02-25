@@ -1,11 +1,12 @@
 
-/*
+
 @media (min-width: 320px) and (max-width: 575.98px) {
 
 
-
-
-
+.banner_content h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 42px;
+}
 
     .navbar-nav .nav-item .nav-link {
         text-align: center;
@@ -25,94 +26,227 @@
     }
 
     .navbar-light .navbar-toggler {
-        color: gray;
+        color: white;
     }
     .navbar-toggler-icon{
-     background-color: palevioletred;
+     background-color: black;
         border-radius: 5px;
-    }
-
  
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-        .navbar-nav .nav-item .nav-link {
+    }
+    
+    .banner_content p {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 70px;
+    }
+    .service_content{
+        margin: 20px 0px;
+    }
+    .service_content h5{
+        margin-bottom: 10px;
+    }
+    .gallery_img{
+          margin: 30px 0px;
+    }
+    .header_text h4{
+        font-size: 25px;
+    }
+    .quote_content p{
+        font-size: 16px;
+    }
+    .fa, .fas{
+        font-size: 30px;
+    }
+    .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    font-size: 26px;
+    }
+    .newpadd{
+       margin-bottom: 20px;
+    }
+    .footer_content{
         text-align: center;
-        font-size: 18px;
-        color: white;
-        background-color: gray;
-        border-radius: 5px;
-        margin-bottom: 3px;
     }
-    .navbar-nav .nav-item :hover.nav-link {
-    color: palevioletred;
-    }
-
-    .navbar-nav .nav-item .nav-link.active {
-        color: white;
-        font-weight: bold;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: gray;
-    }
-    .navbar-toggler-icon{
-     background-color: palevioletred;
-        border-radius: 5px;
-    }
- 
-    
-   
-
-@media (min-width: 768px) and (max-width: 991.98px) {
-    
-    .navbar-nav .nav-item .nav-link {
-        text-align: center;
-        font-size: 14px;
-        color: white;
-        background-color: gray;
-        border-radius: 5px;
-        margin-bottom: 3px;
-    }
-    .navbar-nav .nav-item :hover.nav-link {
-    color: palevioletred;
-    }
-
-    .navbar-nav .nav-item .nav-link.active {
-        color: white;
-        font-weight: bold;
-    }
-
-    .navbar-light .navbar-toggler {
-        color: gray;
-    }
-    .navbar-toggler-icon{
-     background-color: palevioletred;
-        border-radius: 5px;
-    }
-    
-    
-
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    .navbar-nav .nav-item :hover.nav-link {
-    color: palevioletred;
-    }
-    .Menu_second {
-
-    width: 80%;
-    margin-top: 100px;
-    }
-    .Menu_second h1 { 
-    font-size: 53px;
-    }
-    .sit_content {
-    padding-top: 75px;
-    }
-    .content_para{
-        margin-bottom: 20px;
+    .footer_bottom p {
+    font-size: 12px;
     }
     
 }
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: gray;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+    .navbar-nav .nav-item :hover.nav-link {
+    color: palevioletred;
+    }
+
+    .navbar-nav .nav-item .nav-link.active {
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white;
+    }
+    .navbar-toggler-icon{
+     background-color: black;
+        border-radius: 5px;
+ 
+    }
+    .banner_content h4 {
+        font-size: 46px;
+    }
+    .banner_content p {
+    font-size: 28px;
+        padding-bottom: 70px;
+    }
+    .service_content{
+        margin: 15px 0px;
+    }
+    .header_text h4 {
+    font-size: 30px;
+    }
+    .gallery_img{
+        margin: 25px 0px; 
+    }
+    .quote_content p {
+    font-size: 17px;
+    }
+     .newpadd{
+       margin-bottom: 20px;
+    }    
+      .footer_content h4 {
+    font-size: 30px;
+    }
+    .footer_bottom p{
+        text-align: center;
+    }
+    
+    
+        
+    }
+  
+   
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+     .navbar-nav .nav-item .nav-link {
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        background-color: gray;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+    .navbar-nav .nav-item :hover.nav-link {
+    color: palevioletred;
+    }
+
+    .navbar-nav .nav-item .nav-link.active {
+        color: white;
+        font-weight: bold;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: white;
+    }
+    .navbar-toggler-icon{
+     background-color: black;
+        border-radius: 5px;
+ 
+    }
+    
+    .banner_content h4 {
+    font-size: 45px
+    }
+    .banner_content p {
+    font-size: 26px
+    }
+    .banner_content p {
+        padding-bottom: 70px;
+    }
+    .service_content{
+        margin-bottom: 20px;
+    }
+    .header_text h4 {
+    font-size: 30px
+    }
+       .footer_bottom p{
+        text-align: center;
+    }
+    
+   
+    
+    
+}
+    
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner_content h4{
+        font-size: 43px;
+    }
+    .banner_content p{
+        font-size: 30px;
+        padding-top: 30px;
+    padding-bottom: 90px;
+    }
+    .service_content{
+        margin-bottom: 20px;
+    }
+    .header_text h4 {
+        font-size: 30px;
+    }
+    .footer_content h4 {
+        font-size: 30px;
+    }
+    .newpadd{
+        margin-bottom: 40px;
+    }
+    .footer_bottom p{
+        text-align: center;
+    }
+    
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+    .banner_content h4 {
+        font-size: 45px;
+    }
+    .banner_content p {
+        padding-bottom: 90px;
+    }
+/*
+    .service_content{
+        margin-bottom: 60px;
+    }
+*/
+    .header_text h4{
+      font-size: 35px;  
+    }
+        .footer_content h4 {
+        font-size: 30px;
+    }
+    .newpadd{
+        margin-bottom: 40px;
+    }
+    .footer_bottom p{
+        text-align: center;
+    }
+    
+}
+ /*
 
 @media (min-width: 1400px) {
     .navbar-nav .nav-item :hover.nav-link {
